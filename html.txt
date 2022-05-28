@@ -1,0 +1,63 @@
+html>  
+    <head>
+        <title>places</title>
+    </head>
+    <body style="background-color: white">
+        <center>
+        <div style = "background-color: blue;color:white;:20px;font-size: 30px;">
+        <h1>Favourite Places</h1></center>
+        </div>
+        
+        <div style="color: rgb(124, 60, 52);font-size: 60px;">
+        </div>
+        <br><br><center>
+            
+            <table border="5">
+                <div>
+                <tr>
+                    <th style="width:20%; background-color: gray;color: crimson;font-size: 40px;">S.no</th>
+                    <th style="width:15%; background-color: gray;color: crimson;font-size: 40px;">Name</th>
+                    
+                </tr>
+                </div>
+                <tr style="color: pink; font-size:20px; background-color: black;">
+                    <td>1</td>
+                    <td>Munar</td>
+                    
+                </tr>
+                <tr style="color: pink; font-size:20px;  background-color: black;">
+                    <td>2</td>
+                    <td>Manali</td>
+              
+                </tr>
+                <tr style="color: pink; font-size:20px; background-color: black;">
+                    <td>3</td>
+                    <td>Ladakh</td>
+                
+            </table>
+            </center>
+            <br>
+            </div>
+            <p style="font-size: 30px;">Fill the Form </p>
+       <form style="right: 30px;"">
+           <label for="fname">First Name</label><br>
+           <input type="text" id="fname" name="fname"><br><br>
+           <label for="lname">Last name</label><br>
+           <input type="text" id="lname" name="lname"><br><br>
+           <label for="email">Email</label><br>
+           <input type="email" id="email" name="email"><br><br>
+           <label for="pass">Password</label><br>
+           <input type="password" id="pass" name ="pass"><br><br>
+           <p>Your Favourite Places</p>
+           <input type="checkbox" id="Place1" name="Place1">
+           <label for="Place1">Munar</label><br>
+           <input type="checkbox" id="Place2" name="Place2">
+           <label for="Place2">Manali</label><br>
+           <input type="checkbox" id="Place3" name="Place3">
+           <label for="Place3">Ladakh</label><br><br>
+           <input type="submit" value="submit">
+
+       </form>
+    
+    </body></div>
+</html>
